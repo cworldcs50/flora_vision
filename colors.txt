@@ -1,0 +1,29 @@
+title onboardingcolor Color(0XFF0D542B)
+subtitle onboardingcolor Color(0XFF4A5565)
+background app color Colors.white
+on boarding skip button color Color(0XFF00A63E)
+button title first two Continue > last Get Started >
+
+onboarding1 
+    title 
+        Welcome to FloraVision
+    subtitle 
+        AI-powered flower disease identification and visualization
+
+onboarding2
+    title 
+        Identify Plant Diseases
+    subtitle
+        Simply describe the disease symptoms you're seeing on your flowers
+
+onboarding3
+    title
+        Get Visual Recommendations
+    subtitle
+        Our AI generates images of recommended flowers resistant to those diseases
+
+
+
+create account color Color(0XFF0D542B)
+
+have/don't have an account color Color(0XFF4A5565)

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "209306951839",
+    "project_id": "flora-vision-5db05",
+    "storage_bucket": "flora-vision-5db05.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209306951839:android:b6a6018c308020e90e02aa",
+        "android_client_info": {
+          "package_name": "com.example.flora_vision"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw1zIX0wQJTFqyxy8iwOJjWUf4MKuV-WY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
