@@ -61,4 +61,7 @@ class LiveViewController extends GetxController {
       () => _isDetecting = false,
     );
   }
+
+
+
 }

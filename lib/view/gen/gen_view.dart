@@ -44,6 +44,7 @@ class GenView extends GetView<GenController> {
             ),
             30.verticalSpace,
             Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 15.verticalSpace,
                 ElevatedButton.icon(
@@ -103,43 +104,43 @@ class GenView extends GetView<GenController> {
                   ),
                 ),
                 15.verticalSpace,
-                ElevatedButton.icon(
-                  onPressed: controller.liveVideo,
-                  style: ElevatedButton.styleFrom(
-                    alignment: Alignment.center,
-                    backgroundColor: Colors.white,
-                    fixedSize: Size(260.w, 45.h),
-                    overlayColor: AppColors.kPrimaryColor.withAlpha(100),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(5.r),
-                      side: const BorderSide(color: AppColors.kPrimaryColor),
-                    ),
-                  ),
-                  label: const Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        "Real-time Camera",
-                        style: TextStyle(
-                          color: AppColors.kPrimaryColor,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                      Text(
-                        "Live camera preview",
-                        style: TextStyle(
-                          color: AppColors.kPrimaryColor,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
-                  ),
-                  icon: Icon(
-                    Icons.videocam_outlined,
-                    color: AppColors.kPrimaryColor,
-                    size: 15.sp,
-                  ),
-                ),
+                //   ElevatedButton.icon(
+                //     onPressed: controller.liveVideo,
+                //     style: ElevatedButton.styleFrom(
+                //       alignment: Alignment.center,
+                //       backgroundColor: Colors.white,
+                //       fixedSize: Size(260.w, 45.h),
+                //       overlayColor: AppColors.kPrimaryColor.withAlpha(100),
+                //       shape: RoundedRectangleBorder(
+                //         borderRadius: BorderRadius.circular(5.r),
+                //         side: const BorderSide(color: AppColors.kPrimaryColor),
+                //       ),
+                //     ),
+                //     label: const Column(
+                //       mainAxisSize: MainAxisSize.min,
+                //       children: [
+                //         Text(
+                //           "Real-time Camera",
+                //           style: TextStyle(
+                //             color: AppColors.kPrimaryColor,
+                //             fontWeight: FontWeight.bold,
+                //           ),
+                //         ),
+                //         Text(
+                //           "Live camera preview",
+                //           style: TextStyle(
+                //             color: AppColors.kPrimaryColor,
+                //             fontWeight: FontWeight.bold,
+                //           ),
+                //         ),
+                //       ],
+                //     ),
+                //     icon: Icon(
+                //       Icons.videocam_outlined,
+                //       color: AppColors.kPrimaryColor,
+                //       size: 15.sp,
+                //     ),
+                //   ),
               ],
             ),
             50.verticalSpace,
