@@ -53,11 +53,11 @@ class GenView extends GetView<GenController> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
-                            IconButton(
-                              onPressed: controller.pickFromCamera,
-                              icon: const Icon(Icons.camera_alt_outlined),
-                            ),
-                            const SizedBox(width: 40),
+                            // IconButton(
+                            //   onPressed: controller.pickFromCamera,
+                            //   icon: const Icon(Icons.camera_alt_outlined),
+                            // ),
+                            // const SizedBox(width: 40),
                             IconButton(
                               onPressed: controller.pickFromGallery,
                               icon: const Icon(Icons.image_outlined),
@@ -98,9 +98,9 @@ class GenView extends GetView<GenController> {
                     ],
                   ),
                   icon: Icon(
-                    Icons.camera_alt_outlined,
-                    color: Colors.white,
                     size: 13.sp,
+                    color: Colors.white,
+                    Icons.camera_alt_outlined,
                   ),
                 ),
                 15.verticalSpace,
