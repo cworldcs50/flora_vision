@@ -75,7 +75,7 @@ class SignInController extends BaseRequestController {
           Get.showSnackbar(
             const GetSnackBar(
               title: "Success!",
-              message: "Email Created Successfully!",
+              message: "Welcome back!",
               backgroundColor: Colors.green,
               duration: AppDurations.kSnackBarDuration,
             ),
